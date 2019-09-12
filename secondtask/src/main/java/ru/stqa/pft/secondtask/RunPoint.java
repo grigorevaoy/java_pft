@@ -12,7 +12,7 @@ public class RunPoint {
     //вторая часть задания: считаем расстояние между точками в классе Point
     Point x = new Point(5, 5);
     Point y = new Point(4, 4);
-    System.out.println("Вторая часть задания: расстояние между точками (" + x.x + "," + x.y + ") и (" + y.x + "," + y.y + ")" + " = " + Point.distance(x, y));
+    System.out.println("Вторая часть задания: расстояние между точками (" + x.x + "," + x.y + ") и (" + y.x + "," + y.y + ")" + " = " + x.distance(y));
   }
 
   public static double distance(Point r1, Point r2){
