@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/secondtask/secondtask.iml" filepath="$PROJECT_DIR$/secondtask/secondtask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondtask.main.iml" filepath="$PROJECT_DIR$/.idea/modules/secondtask.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondtask.test.iml" filepath="$PROJECT_DIR$/.idea/modules/secondtask.test.iml" />
     </modules>
   </component>
 </project>
