@@ -3,16 +3,18 @@ package ru.stqa.pft.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import ru.stqa.pft.addressbook.model.ContactData;
 
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager {
+public class ApplicationManager{
 
   FirefoxDriver wd;
 
   private SessionHelper sessionHelper;
   private  NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
+  private ContactHelper contactHelper;
 
   public void init() {
     wd = new FirefoxDriver();
@@ -21,6 +23,7 @@ public class ApplicationManager {
     navigationHelper = new NavigationHelper(wd);
     sessionHelper = new SessionHelper(wd);
     sessionHelper.login("admin", "secret");
+    contactHelper = new ContactHelper(wd);
   }
 
   public void stop() {
@@ -41,7 +44,12 @@ public class ApplicationManager {
     return groupHelper;
   }
 
+  public ContactHelper getContactHelper() {
+    return contactHelper;
+  }
+
   public NavigationHelper getNavigationHelper() {
     return navigationHelper;
   }
+
 }
