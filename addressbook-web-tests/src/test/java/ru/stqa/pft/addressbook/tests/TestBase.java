@@ -10,7 +10,7 @@ import ru.stqa.pft.addressbook.model.ContactData;
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.IE);
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
   private WebDriver wd;
 
   @BeforeMethod(alwaysRun = true)
