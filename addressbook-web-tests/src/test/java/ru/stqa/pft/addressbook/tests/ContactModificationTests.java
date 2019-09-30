@@ -16,7 +16,6 @@ public class ContactModificationTests extends TestBase{
     }
     List<ContactData> before = app.getContactHelper().getContactList();
     app.getNavigationHelper().gotoContactPage();
-    //app.getContactHelper().selectContact(before.size()-1);
     app.getContactHelper().initContactModification();
     ContactData contact = new ContactData(before.get(before.size()-1).getId(),"Oksana", "Grigoreva", "Saint-Petersburg", "89112999959", "kiyrina@mail.ru", null);
     app.getContactHelper().fillContactForm(contact, false);
@@ -29,7 +28,7 @@ public class ContactModificationTests extends TestBase{
     Comparator<? super ContactData> byId = (g1, g2) -> Integer.compare(g1.getId(),g2.getId());
     before.sort(byId);
     after.sort(byId);
-    Assert.assertEquals(before,after);
+    Assert.assertEquals(before, after);
 
   }
 }
