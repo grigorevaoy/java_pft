@@ -53,7 +53,6 @@ public class ContactData {
     return email;
   }
 
-
   public int getId() {
     return id;
   }
@@ -69,6 +68,7 @@ public class ContactData {
             ", lastname='" + lastname + '\'' +
             '}';
   }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
