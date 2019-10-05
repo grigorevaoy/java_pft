@@ -11,6 +11,7 @@ public class ContactData {
   private String homephone;
   private String mobilephone;
   private String workphone;
+  private String allPhones;
   private String email;
   private String group;
 
@@ -114,4 +115,12 @@ public class ContactData {
     return Objects.hash(id, firstname, lastname);
   }
 
+  public String getAllPhones() {
+    return allPhones;
+  }
+
+  public ContactData withAllPhones(String allPhones) {
+    this.allPhones = allPhones;
+    return this;
+  }
 }
