@@ -24,7 +24,7 @@ public class NavigationHelper extends HelperBase {
   }
 
 
-  public void gotoContactPage() {
+  public void ContactPage() {
     if (isElementPresent(By.id("maintable"))){
       return;
     }
