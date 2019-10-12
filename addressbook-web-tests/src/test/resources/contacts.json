@@ -1,0 +1,23 @@
+[
+  {
+    "firstname": "Oksana 0",
+    "lastname": "Grigoreva 0",
+    "address": "Saint-Petersburg 0",
+    "homephone": "89112999959 0",
+    "email": "kiyrina@mail.ru 0"
+  },
+  {
+    "firstname": "Oksana 1",
+    "lastname": "Grigoreva 1",
+    "address": "Saint-Petersburg 1",
+    "homephone": "89112999959 1",
+    "email": "kiyrina@mail.ru 1"
+  },
+  {
+    "firstname": "Oksana 2",
+    "lastname": "Grigoreva 2",
+    "address": "Saint-Petersburg 2",
+    "homephone": "89112999959 2",
+    "email": "kiyrina@mail.ru 2"
+  }
+]
