@@ -68,7 +68,7 @@ public class ContactData {
 
   @Column(name = "photo")
   @Type(type = "text")
-  private String photo;
+  transient private String photo;
 
   public String getFirstname() {
     return firstname;
