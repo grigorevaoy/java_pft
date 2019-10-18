@@ -9,10 +9,11 @@ import java.sql.*;
 public class DbConnectionTest {
 
   @Test
-  public void testDbCobbection(){
+  public void testDbConnection(){
     Connection conn = null;
     try {
-      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/addressbook?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&user=root&password=");
+      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC&user=root&password=");
+      //conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/addressbook?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&user=root&password=");
       Statement st = conn.createStatement();
       ResultSet rs = st.executeQuery("select group_id, group_name , group_header, group_footer from group_list");
       Groups groups = new Groups();
