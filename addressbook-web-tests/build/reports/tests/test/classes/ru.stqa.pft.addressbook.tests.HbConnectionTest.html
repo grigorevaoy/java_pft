@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.322s</div>
+<div class="counter">0.285s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">testHbConnection</td>
-<td class="success">0.322s</td>
+<td class="success">0.285s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,268 +87,82 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:49:53.735 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
-16:49:53.736 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
-16:49:53.750 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@af348dd
-16:49:53.750 [Test worker] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
-16:49:53.795 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from ru.stqa.pft.addressbook.model.GroupData
-16:49:53.807 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+<pre>17:58:00.782 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+17:58:00.783 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+17:58:00.795 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@ceee3e1
+17:58:00.795 [Test worker] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+17:58:00.834 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from ru.stqa.pft.addressbook.model.ContactData where deprecated = '0000-00-00'
+17:58:00.847 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
  \-[QUERY] Node: 'query'
-    \-[SELECT_FROM] Node: 'SELECT_FROM'
-       \-[FROM] Node: 'from'
-          \-[RANGE] Node: 'RANGE'
-             \-[DOT] Node: '.'
-                +-[DOT] Node: '.'
-                |  +-[DOT] Node: '.'
-                |  |  +-[DOT] Node: '.'
-                |  |  |  +-[DOT] Node: '.'
-                |  |  |  |  +-[IDENT] Node: 'ru'
-                |  |  |  |  \-[IDENT] Node: 'stqa'
-                |  |  |  \-[IDENT] Node: 'pft'
-                |  |  \-[IDENT] Node: 'addressbook'
-                |  \-[IDENT] Node: 'model'
-                \-[IDENT] Node: 'GroupData'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[DOT] Node: '.'
+    |           |  |  |  |  +-[IDENT] Node: 'ru'
+    |           |  |  |  |  \-[IDENT] Node: 'stqa'
+    |           |  |  |  \-[IDENT] Node: 'pft'
+    |           |  |  \-[IDENT] Node: 'addressbook'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'ContactData'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'deprecated'
+          \-[QUOTED_STRING] Node: ''0000-00-00''
 
-16:49:53.808 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-16:49:53.849 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &lt;&lt; begin [level=1, statement=select]
-16:49:53.870 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : ru.stqa.pft.addressbook.model.GroupData (&lt;no alias&gt;) -&gt; groupdata0_
-16:49:53.871 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
-16:49:53.871 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) )
-16:49:53.880 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
-16:49:53.887 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_]
-16:49:53.887 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &gt;&gt; end [level=1, statement=select]
-16:49:53.888 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
- \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+17:58:00.847 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+17:58:00.878 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &lt;&lt; begin [level=1, statement=select]
+17:58:00.898 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : ru.stqa.pft.addressbook.model.ContactData (&lt;no alias&gt;) -&gt; contactdat0_
+17:58:00.904 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+17:58:00.904 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} addressbook contactdat0_ ) ( where ( = deprecated '0000-00-00' ) ) )
+17:58:00.915 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+17:58:00.922 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [addressbook contactdat0_]
+17:58:00.927 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &gt;&gt; end [level=1, statement=select]
+17:58:00.929 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (addressbook)
     +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
-    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.GroupData}}}
-    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_'
-    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.GroupData}}
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'contactdat0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'contactdat0_.address as address2_0_, contactdat0_.firstname as firstnam3_0_, contactdat0_.home as home4_0_, contactdat0_.lastname as lastname5_0_, contactdat0_.mobile as mobile6_0_, contactdat0_.photo as photo7_0_, contactdat0_.work as work8_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[contactdat0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'addressbook contactdat0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'deprecated' {originalText=deprecated}
+          \-[QUOTED_STRING] LiteralNode: ''0000-00-00''
 
-16:49:53.889 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-16:49:53.900 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from ru.stqa.pft.addressbook.model.GroupData
-16:49:53.901 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
-16:49:53.901 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-16:49:53.917 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
-Hibernate: select groupdata0_.group_id as group_id1_0_, groupdata0_.group_footer as group_fo2_0_, groupdata0_.group_header as group_he3_0_, groupdata0_.group_name as group_na4_0_ from group_list groupdata0_
-16:49:53.938 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
-16:49:53.941 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
-16:49:53.949 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
-16:49:53.949 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
-16:49:53.950 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
-16:49:53.950 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
-16:49:53.951 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
-16:49:53.952 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
-16:49:53.953 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
-16:49:53.954 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
-16:49:53.955 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
-16:49:53.955 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
-16:49:53.955 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
-16:49:53.955 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
-16:49:53.955 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
-16:49:53.956 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
-16:49:53.957 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#71]
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
-16:49:53.958 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#72]
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#73]
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
-16:49:53.959 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
-16:49:53.960 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
-16:49:53.961 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
-16:49:53.963 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
-16:49:53.966 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
-16:49:53.966 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
-16:49:53.966 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
-16:49:53.967 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
-16:49:53.968 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
-16:49:53.969 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
-16:49:53.970 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#71]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#71]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#72]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#72]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#73]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#73]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
-16:49:53.971 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
-16:49:53.974 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
-GroupData{id='44', name='the first'}
-GroupData{id='45', name='the first'}
-GroupData{id='48', name='test3'}
-GroupData{id='49', name='test1'}
-GroupData{id='50', name='test2'}
-GroupData{id='51', name='test3'}
-GroupData{id='52', name='test 0'}
-GroupData{id='53', name='test 1'}
-GroupData{id='54', name='test 2'}
-GroupData{id='55', name='test 0'}
-GroupData{id='56', name='test 1'}
-GroupData{id='57', name='test 2'}
-GroupData{id='58', name='test 0'}
-GroupData{id='59', name='test 1'}
-GroupData{id='60', name='test 2'}
-GroupData{id='61', name='test 0'}
-GroupData{id='62', name='test 1'}
-GroupData{id='63', name='test 2'}
-GroupData{id='64', name='test 0'}
-GroupData{id='65', name='test 1'}
-GroupData{id='66', name='test 2'}
-GroupData{id='67', name='test 0'}
-GroupData{id='68', name='test 1'}
-GroupData{id='69', name='test 2'}
-GroupData{id='70', name='test 0'}
-GroupData{id='71', name='test 1'}
-GroupData{id='72', name='test 2'}
-GroupData{id='73', name='test 0'}
-GroupData{id='74', name='test 1'}
-GroupData{id='75', name='test 2'}
-GroupData{id='76', name='test 0'}
-GroupData{id='77', name='the first'}
-GroupData{id='78', name='test 2'}
-GroupData{id='80', name='test 1'}
-GroupData{id='81', name='test 2'}
-GroupData{id='82', name='test 0'}
-GroupData{id='83', name='test 1'}
-GroupData{id='84', name='test 2'}
-16:49:53.976 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
-16:49:53.978 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
-16:49:53.982 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
-16:49:53.986 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 38 objects
-16:49:53.986 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-16:49:53.988 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
-16:49:53.988 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75}
-16:49:53.988 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=76}
-16:49:53.988 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=81}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84}
-16:49:53.989 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=the first, header=, id=45}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=48}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer1, name=test1, header=header1, id=49}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer2, name=test2, header=header2, id=50}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=51}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=52}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=53}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=54}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=55}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=56}
-16:49:53.990 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=57}
-16:49:53.991 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+17:58:00.929 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+17:58:00.947 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from ru.stqa.pft.addressbook.model.ContactData where deprecated = '0000-00-00'
+17:58:00.947 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.firstname as firstnam3_0_, contactdat0_.home as home4_0_, contactdat0_.lastname as lastname5_0_, contactdat0_.mobile as mobile6_0_, contactdat0_.photo as photo7_0_, contactdat0_.work as work8_0_ from addressbook contactdat0_ where deprecated='0000-00-00'
+17:58:00.947 [Test worker] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+17:58:00.963 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.firstname as firstnam3_0_, contactdat0_.home as home4_0_, contactdat0_.lastname as lastname5_0_, contactdat0_.mobile as mobile6_0_, contactdat0_.photo as photo7_0_, contactdat0_.work as work8_0_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.firstname as firstnam3_0_, contactdat0_.home as home4_0_, contactdat0_.lastname as lastname5_0_, contactdat0_.mobile as mobile6_0_, contactdat0_.photo as photo7_0_, contactdat0_.work as work8_0_ from addressbook contactdat0_ where deprecated='0000-00-00'
+17:58:00.984 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+17:58:00.987 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#82]
+17:58:00.995 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+17:58:00.995 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#86]
+17:58:00.996 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+17:58:00.996 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#87]
+17:58:00.998 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#82]
+17:58:01.001 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#82]
+17:58:01.002 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#86]
+17:58:01.002 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#86]
+17:58:01.002 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#87]
+17:58:01.002 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#87]
+ContactData{id=82, firstname='Oksana', lastname='Grigoreva'}
+ContactData{id=86, firstname='Oksana 0', lastname='Grigoreva 0'}
+ContactData{id=87, firstname='Oksana 1', lastname='Grigoreva 1'}
+17:58:01.004 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+17:58:01.005 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+17:58:01.008 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+17:58:01.010 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+17:58:01.010 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+17:58:01.012 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+17:58:01.012 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, photo=, id=86, lastname=Grigoreva 0}
+17:58:01.012 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, photo=, id=87, lastname=Grigoreva 1}
+17:58:01.012 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=89112999959, workphone=, photo=, id=82, lastname=Grigoreva}
 </pre>
 </span>
 </div>
@@ -360,7 +174,7 @@ GroupData{id='84', name='test 2'}
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.2</a> at 18.10.2019 16:49:54</p>
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at 18.10.2019 17:58:01</p>
 </div>
 </div>
 </body>
