@@ -1,414 +1,414 @@
-K00:30:09.519 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
-˙00:30:09.520 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+K00:53:30.020 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+˙00:53:30.042 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
 –Hibernate: select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
-R00:30:09.524 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
-Ç00:30:09.525 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
-R00:30:09.525 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
-Ç00:30:09.525 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
-R00:30:09.525 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
-Ç00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
-R00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
-Ç00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
-R00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
-Ç00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
-R00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
-Ç00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
-R00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
-Ç00:30:09.526 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
-R00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
-Ç00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
-R00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
-Ç00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
-R00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
-Ç00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
-S00:30:09.527 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
-Ç00:30:09.528 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
-S00:30:09.528 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
-Ç00:30:09.528 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
-S00:30:09.528 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
-Ç00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
-S00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
-Ç00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
-S00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
-Ç00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
-S00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
-Ç00:30:09.529 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
-S00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
-Ç00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
-S00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
-Ç00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
-S00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
-Ç00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
-S00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
-Ç00:30:09.530 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
-S00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
-Ç00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
-S00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
-Ç00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
-S00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
-Ç00:30:09.531 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
-S00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
-Ç00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
-S00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
-Ç00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
-S00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
-Ç00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
-S00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
-Ç00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
-S00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
-Ç00:30:09.532 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
-S00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
-Ç00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
-S00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
-Ç00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
-S00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
-Ç00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
-S00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
-Ç00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
-S00:30:09.533 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
-Ç00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
-S00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
-Ç00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
-S00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
-Ç00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
-S00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
-Ç00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#85]
-S00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
-Ç00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#86]
-S00:30:09.534 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
-Ç00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#87]
-S00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 38
-Ç00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#88]
-S00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 39
-Ç00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#89]
-S00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 40
-Ç00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#90]
-S00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 41
-Ç00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#91]
-S00:30:09.535 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 42
-Ç00:30:09.536 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#92]
-S00:30:09.536 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 43
-Ç00:30:09.536 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#93]
-ç00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
-å00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
-ç00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
-å00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
-ç00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
-å00:30:09.536 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
-å00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
-ç00:30:09.537 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
-å00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
-ç00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
-å00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
-ç00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
-å00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
-ç00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
-å00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
-ç00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
-å00:30:09.538 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
-ç00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
-å00:30:09.539 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
-å00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
-ç00:30:09.540 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
-ç00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
-ç00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
-ç00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
-ç00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
-ç00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
-å00:30:09.541 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#85]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#85]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#86]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#86]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#87]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#87]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#88]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#88]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#89]
-å00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#89]
-ç00:30:09.542 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#90]
-å00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#90]
-ç00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
-å00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
-ç00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#92]
-å00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#92]
-ç00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#93]
-å00:30:09.543 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#93]
-P00:30:09.543 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
-i00:30:09.544 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
-e00:30:09.544 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
-Ü00:30:09.547 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 44 objects
-ã00:30:09.547 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-V00:30:09.547 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
-¢00:30:09.547 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75}
-¢00:30:09.547 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=76}
-ü00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80}
-ü00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=81}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=85}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=86}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=87}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=88}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=89}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=90}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=91}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=92}
-¢00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=93}
-ü00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44}
-ï00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=the first, header=, id=45}
-ü00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=48}
-O00:30:09.548 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
-K00:30:12.681 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
-˙00:30:12.682 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
+R00:53:30.045 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+Ç00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
+R00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+Ç00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
+R00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+Ç00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
+R00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+Ç00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
+R00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+Ç00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
+R00:53:30.046 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
+R00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
+R00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
+R00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
+R00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
+S00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+Ç00:53:30.047 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
+S00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+Ç00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
+S00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+Ç00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
+S00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+Ç00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
+S00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+Ç00:53:30.048 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
+S00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+Ç00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
+S00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+Ç00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
+S00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+Ç00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
+S00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+Ç00:53:30.049 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
+S00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+Ç00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
+S00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+Ç00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
+S00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+Ç00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
+S00:53:30.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+Ç00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
+S00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+Ç00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
+S00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+Ç00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
+S00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+Ç00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
+S00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+Ç00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
+S00:53:30.051 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
+S00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
+S00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
+S00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
+S00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
+S00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
+Ç00:53:30.052 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#85]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#86]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#87]
+S00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 38
+Ç00:53:30.053 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#88]
+S00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 39
+Ç00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#89]
+S00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 40
+Ç00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#90]
+S00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 41
+Ç00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#91]
+S00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 42
+Ç00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#92]
+S00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 43
+Ç00:53:30.054 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#93]
+ç00:53:30.054 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+å00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+ç00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
+å00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
+ç00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
+å00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
+ç00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
+å00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
+ç00:53:30.055 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
+ç00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
+å00:53:30.056 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
+å00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
+ç00:53:30.057 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
+å00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
+ç00:53:30.058 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#85]
+å00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#85]
+ç00:53:30.059 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#86]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#86]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#87]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#87]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#88]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#88]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#89]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#89]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#90]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#90]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#92]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#92]
+ç00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#93]
+å00:53:30.060 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#93]
+P00:53:30.061 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+i00:53:30.061 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+e00:53:30.061 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+Ü00:53:30.063 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 44 objects
+ã00:53:30.063 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+V00:53:30.063 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+¢00:53:30.063 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75}
+¢00:53:30.063 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=76}
+ü00:53:30.063 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80}
+ü00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=81}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84}
+¢00:53:30.070 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=85}
+¢00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=86}
+¢00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=87}
+¢00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=88}
+¢00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=89}
+¢00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=90}
+ü00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91}
+ü00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=92}
+ü00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=93}
+ü00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44}
+ï00:53:30.072 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=the first, header=, id=45}
+ü00:53:30.073 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=48}
+O00:53:30.073 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+K00:53:32.082 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+˙00:53:32.083 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
 –Hibernate: select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_
-R00:30:12.685 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
-Ç00:30:12.686 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
-R00:30:12.686 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
-Ç00:30:12.686 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
-R00:30:12.687 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
-Ç00:30:12.687 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
-R00:30:12.687 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
-Ç00:30:12.687 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
-R00:30:12.687 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
-Ç00:30:12.688 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
-R00:30:12.688 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
-Ç00:30:12.688 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
-R00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
-R00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
-R00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
-R00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
-S00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
-S00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
-S00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
-S00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
-Ç00:30:12.690 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
-S00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
-Ç00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
-S00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
-Ç00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
-S00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
-Ç00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
-S00:30:12.691 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
-Ç00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
-S00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
-Ç00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
-S00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
-Ç00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
-S00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
-Ç00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
-S00:30:12.694 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
-Ç00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
-S00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
-Ç00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
-S00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
-Ç00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
-S00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
-Ç00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
-S00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
-Ç00:30:12.695 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
-S00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
-Ç00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
-S00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
-Ç00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
-S00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
-Ç00:30:12.696 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
-S00:30:12.697 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
-Ç00:30:12.697 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
-S00:30:12.697 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
-Ç00:30:12.698 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
-S00:30:12.698 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
-Ç00:30:12.698 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
-S00:30:12.698 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
-Ç00:30:12.698 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
-S00:30:12.699 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
-Ç00:30:12.699 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
-S00:30:12.699 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
-Ç00:30:12.700 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
-S00:30:12.700 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
-Ç00:30:12.700 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#85]
-S00:30:12.700 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
-Ç00:30:12.700 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#86]
-S00:30:12.701 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
-Ç00:30:12.701 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#87]
-S00:30:12.701 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 38
-Ç00:30:12.701 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#88]
-S00:30:12.701 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 39
-Ç00:30:12.702 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#89]
-S00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 40
-Ç00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#90]
-S00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 41
-Ç00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#91]
-S00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 42
-Ç00:30:12.703 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#92]
-S00:30:12.704 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 43
-Ç00:30:12.704 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#93]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
-å00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
-å00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
-å00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
-å00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
-å00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
-ç00:30:12.705 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
-ç00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
-ç00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
-ç00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
-ç00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
-ç00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
-å00:30:12.706 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
-å00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
-å00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
-å00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
-å00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
-å00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
-ç00:30:12.707 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
-ç00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
-å00:30:12.708 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
-ç00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
-å00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
-ç00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
-å00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
-ç00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
-å00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
-ç00:30:12.709 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#85]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#85]
-ç00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#86]
-å00:30:12.710 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#86]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#87]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#87]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#88]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#88]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#89]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#89]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#90]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#90]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#92]
-å00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#92]
-ç00:30:12.711 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#93]
-å00:30:12.712 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#93]
-P00:30:12.713 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
-i00:30:12.713 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
-e00:30:12.713 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
-Ü00:30:12.717 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 44 objects
-ã00:30:12.717 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-V00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=76}
-ü00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80}
-ü00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=81}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=85}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=86}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=87}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=88}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=89}
-¢00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=90}
-ü00:30:12.718 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91}
-¢00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=92}
-¢00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=93}
-ü00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44}
-ï00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=the first, header=, id=45}
-ü00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=48}
-O00:30:12.719 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+R00:53:32.085 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+Ç00:53:32.085 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
+R00:53:32.085 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+Ç00:53:32.085 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
+R00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+Ç00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
+R00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+Ç00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
+R00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+Ç00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
+R00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+Ç00:53:32.086 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
+R00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+Ç00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
+R00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+Ç00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
+R00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+Ç00:53:32.087 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
+R00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+Ç00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
+S00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+Ç00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
+S00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+Ç00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
+S00:53:32.088 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+Ç00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
+S00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+Ç00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
+S00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+Ç00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
+S00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+Ç00:53:32.089 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
+S00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+Ç00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
+S00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+Ç00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
+S00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+Ç00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
+S00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+Ç00:53:32.090 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
+S00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+Ç00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
+S00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+Ç00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
+S00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+Ç00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
+S00:53:32.091 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+Ç00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
+S00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+Ç00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
+S00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+Ç00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
+S00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+Ç00:53:32.092 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
+S00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+Ç00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
+S00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+Ç00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
+S00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+Ç00:53:32.093 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
+S00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+Ç00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
+S00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
+Ç00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
+S00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
+Ç00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
+S00:53:32.094 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
+Ç00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
+S00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
+Ç00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
+S00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
+Ç00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#85]
+S00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
+Ç00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#86]
+S00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
+Ç00:53:32.095 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#87]
+S00:53:32.096 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 38
+Ç00:53:32.096 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#88]
+S00:53:32.096 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 39
+Ç00:53:32.096 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#89]
+S00:53:32.096 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 40
+Ç00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#90]
+S00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 41
+Ç00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#91]
+S00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 42
+Ç00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#92]
+S00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 43
+Ç00:53:32.097 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#93]
+ç00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+å00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+ç00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
+å00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
+ç00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
+å00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
+ç00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
+å00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
+ç00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
+å00:53:32.098 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
+å00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
+ç00:53:32.099 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
+ç00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
+å00:53:32.100 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
+ç00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
+å00:53:32.101 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
+ç00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
+å00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
+ç00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
+å00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
+ç00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+å00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+ç00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
+å00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
+ç00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
+å00:53:32.102 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
+ç00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
+å00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
+ç00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
+å00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
+ç00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
+å00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
+ç00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
+å00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
+ç00:53:32.103 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#85]
+å00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#85]
+ç00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#86]
+å00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#86]
+ç00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#87]
+å00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#87]
+ç00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#88]
+å00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#88]
+ç00:53:32.104 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#89]
+å00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#89]
+ç00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#90]
+å00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#90]
+ç00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+å00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+ç00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#92]
+å00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#92]
+ç00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#93]
+å00:53:32.105 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#93]
+P00:53:32.107 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+i00:53:32.107 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+e00:53:32.107 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+Ü00:53:32.109 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 44 objects
+ã00:53:32.110 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+V00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=76}
+ü00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80}
+ü00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=81}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=85}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=86}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=87}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=88}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=89}
+¢00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=90}
+ü00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91}
+ü00:53:32.110 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=92}
+ü00:53:32.111 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=93}
+ü00:53:32.111 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44}
+ï00:53:32.111 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=the first, header=, id=45}
+ü00:53:32.111 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer3, name=test3, header=header3, id=48}
+O00:53:32.111 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
