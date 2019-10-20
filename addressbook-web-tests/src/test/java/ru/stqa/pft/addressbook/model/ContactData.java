@@ -177,6 +177,11 @@ public class ContactData {
     return this;
   }
 
+  public ContactData withGroups( Set<GroupData> groups) {
+    this.groups = groups;
+    return this;
+  }
+
 
   @Override
   public String toString() {

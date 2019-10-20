@@ -11,6 +11,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
+import ru.stqa.pft.addressbook.model.ContactData;
+import ru.stqa.pft.addressbook.model.Contacts;
 import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
 
@@ -58,4 +60,15 @@ public class TestBase {
     }
 
   }
+
+  public void verifyContactListInUI(ContactData contact) {
+    contact.getGroups(); //список групп, в которые входит выбранный контакт
+    Contacts dbContacts = app.db().contacts();
+    Contacts uiContacts = app.contact().all();
+   assertThat(uiContacts, equalTo(dbContacts.stream().
+            map((g) -> new ContactData().withId(g.getId()).withFirstname(g.getFirstname()).withLastname(g.getLastname())
+                    .withAddress(g.getAddress()).withAllEmails(g.getAllEmails()).withAllPhones(g.getAllPhones()).withGroups(g.getGroups())).collect(Collectors.toSet())));
+
+  }
 }
+

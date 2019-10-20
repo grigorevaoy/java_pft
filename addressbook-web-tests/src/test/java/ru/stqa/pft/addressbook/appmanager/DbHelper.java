@@ -41,5 +41,16 @@ public class DbHelper {
     session.close();
     return new Contacts(result);
   }
+
+  public ContactData contactData(){
+    Session session = sessionFactory.openSession();
+    session.beginTransaction();
+    List<ContactData> result = session.createQuery( "from ContactData" ).list();
+    session.getTransaction().commit();
+    session.close();
+    return (ContactData) result;
+  }
+
+
 }
 
