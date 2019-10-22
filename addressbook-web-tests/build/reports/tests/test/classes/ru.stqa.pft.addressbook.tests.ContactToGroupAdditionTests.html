@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ru.stqa.pft.addressbook.tests.ContactToGroupAdditionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ru.stqa.pft.addressbook.tests.ContactToGroupAdditionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.stqa.pft.addressbook.tests.html">ru.stqa.pft.addressbook.tests</a> &gt; ContactToGroupAdditionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.830s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">TestContactToGroupAddition</td>
+<td class="success">0.830s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:04:22.465 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+16:04:22.470 [Test worker] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_ where deprecated='0000-00-00'
+Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_ where deprecated='0000-00-00'
+16:04:22.490 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+16:04:22.490 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#45]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#48]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#49]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#50]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#51]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#53]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#54]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#55]
+16:04:22.491 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 10
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#56]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 11
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#57]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 12
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#58]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 13
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#59]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 14
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#60]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 15
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#61]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 16
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#62]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 17
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#63]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 18
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#64]
+16:04:22.492 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 19
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#65]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 20
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#66]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 21
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#67]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 22
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#68]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 23
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#69]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 24
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#70]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 25
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#74]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 26
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#75]
+16:04:22.493 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 27
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#76]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 28
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 29
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#78]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 30
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#80]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 31
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#81]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 32
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#82]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 33
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#83]
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 34
+16:04:22.494 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#84]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 35
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#85]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 36
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#86]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 37
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#87]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 38
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#88]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 39
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#89]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 40
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#90]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 41
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 42
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#93]
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 43
+16:04:22.495 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#94]
+16:04:22.496 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 44
+16:04:22.496 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#95]
+16:04:22.496 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 45
+16:04:22.496 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.GroupData#96]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#45]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#45]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#48]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#48]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#49]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#49]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#50]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#50]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#51]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#51]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.496 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#53]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#53]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#54]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#54]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#55]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#55]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#56]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#56]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#57]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#57]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#58]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#58]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#59]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#59]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#60]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#60]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#61]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#61]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#62]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#62]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#63]
+16:04:22.497 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#63]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#64]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#64]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#65]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#65]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#66]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#66]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#67]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#67]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#68]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#68]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#69]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#69]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#70]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#70]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#74]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#74]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#75]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#75]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#76]
+16:04:22.498 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#76]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#78]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#78]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#80]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#80]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#81]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#81]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#82]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#82]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#83]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#83]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#84]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#84]
+16:04:22.499 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#85]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#85]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#86]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#86]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#87]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#87]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#88]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#88]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#89]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#89]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#90]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#90]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#93]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#93]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#94]
+16:04:22.500 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#94]
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#95]
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#95]
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#96]
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#96]
+16:04:22.501 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+16:04:22.501 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+16:04:22.501 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#44], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#44] (uninitialized)
+16:04:22.501 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#45], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#45] (uninitialized)
+16:04:22.502 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#48], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#48] (uninitialized)
+16:04:22.502 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#49], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#49] (uninitialized)
+16:04:22.502 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#50], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#50] (uninitialized)
+16:04:22.503 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#51], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#51] (uninitialized)
+16:04:22.503 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#52], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#52] (uninitialized)
+16:04:22.503 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#53], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#53] (uninitialized)
+16:04:22.503 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#54], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#54] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#55], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#55] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#56], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#56] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#57], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#57] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#58], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#58] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#59], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#59] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#60], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#60] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#61], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#61] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#62], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#62] (uninitialized)
+16:04:22.504 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#63], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#63] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#64], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#64] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#65], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#65] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#66], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#66] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#67], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#67] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#68], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#68] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#69], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#69] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#70], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#70] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#74], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#74] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#75], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#75] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#76], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#76] (uninitialized)
+16:04:22.505 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#77], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#77] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#78], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#78] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#80], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#80] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#81], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#81] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#82], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#82] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#83], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#83] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#84], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#84] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#85], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#85] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#86], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#86] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#87], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#87] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#88], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#88] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#89], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#89] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#90], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#90] (uninitialized)
+16:04:22.506 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#91], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#91] (uninitialized)
+16:04:22.507 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#93], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#93] (uninitialized)
+16:04:22.507 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#94], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#94] (uninitialized)
+16:04:22.507 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#95], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#95] (uninitialized)
+16:04:22.507 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#96], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#96] (uninitialized)
+16:04:22.507 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 46 objects
+16:04:22.507 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 46 collections
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=75, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=76, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=78, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=80, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=81, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=82, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=83, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=84, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=85, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=86, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=87, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=88, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=89, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=90, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91, contacts=&lt;uninitialized&gt;}
+16:04:22.507 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=93, contacts=&lt;uninitialized&gt;}
+16:04:22.508 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=94, contacts=&lt;uninitialized&gt;}
+16:04:22.508 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=95, contacts=&lt;uninitialized&gt;}
+16:04:22.508 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=96, contacts=&lt;uninitialized&gt;}
+16:04:22.508 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44, contacts=&lt;uninitialized&gt;}
+16:04:22.508 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+16:04:22.512 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+16:04:22.512 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+16:04:22.518 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+16:04:22.518 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.518 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+16:04:22.518 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.518 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+16:04:22.519 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+16:04:22.520 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.520 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.520 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.520 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.520 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.520 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.521 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.521 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.521 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.523 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.524 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.524 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.524 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.524 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.524 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.524 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.524 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.524 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.524 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.524 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.525 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.526 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.526 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.526 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.526 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.526 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.526 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.526 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.526 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.526 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.526 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #2
+16:04:22.535 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.535 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.535 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.535 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.535 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.535 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.536 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.536 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.536 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.536 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.536 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.536 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.541 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.541 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.541 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.541 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.541 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.541 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.541 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.541 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.544 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.544 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.545 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.545 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.545 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.545 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.545 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.545 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.547 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.547 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.547 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.547 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.547 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.547 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.547 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.547 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.552 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.552 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.553 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.553 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.553 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.553 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.553 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.553 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.556 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.556 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.556 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.556 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:22.556 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.556 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.557 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.557 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.557 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.557 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.557 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.557 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.557 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.557 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.558 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.558 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.558 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.558 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.558 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.558 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.558 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.558 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.559 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.559 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.559 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.560 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.560 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.560 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.560 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.560 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.560 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+16:04:22.560 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+16:04:22.560 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+16:04:22.560 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#86], was: [ru.stqa.pft.addressbook.model.ContactData.groups#86] (initialized)
+16:04:22.560 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#87], was: [ru.stqa.pft.addressbook.model.ContactData.groups#87] (initialized)
+16:04:22.560 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#98], was: [ru.stqa.pft.addressbook.model.ContactData.groups#98] (initialized)
+16:04:22.560 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#99], was: [ru.stqa.pft.addressbook.model.ContactData.groups#99] (initialized)
+16:04:22.560 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#102], was: [ru.stqa.pft.addressbook.model.ContactData.groups#102] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#103], was: [ru.stqa.pft.addressbook.model.ContactData.groups#103] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#104], was: [ru.stqa.pft.addressbook.model.ContactData.groups#104] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#105], was: [ru.stqa.pft.addressbook.model.ContactData.groups#105] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#106], was: [ru.stqa.pft.addressbook.model.ContactData.groups#106] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#107], was: [ru.stqa.pft.addressbook.model.ContactData.groups#107] (initialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#44], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#44] (uninitialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#52], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#52] (uninitialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#91], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#91] (uninitialized)
+16:04:22.561 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#77], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#77] (uninitialized)
+16:04:22.561 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 14 objects
+16:04:22.561 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 14 collections
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=107, lastname=Grigoreva}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44, contacts=&lt;uninitialized&gt;}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77, contacts=&lt;uninitialized&gt;}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=52, contacts=&lt;uninitialized&gt;}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[], id=86, lastname=Grigoreva 0}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#52], id=87, lastname=Grigoreva 1}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91, contacts=&lt;uninitialized&gt;}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#77], id=98, lastname=Grigoreva 0}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=99, lastname=Grigoreva 1}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=102, lastname=Grigoreva 1}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 2, address=Saint-Petersburg 2, homephone=, mobilephone=89112999959 2, workphone=, groups=[], id=103, lastname=Grigoreva 2}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=123, address=, homephone=, mobilephone=, workphone=, groups=[], id=104, lastname=123}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#91, ru.stqa.pft.addressbook.model.GroupData#52], id=105, lastname=Grigoreva}
+16:04:22.562 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=106, lastname=Grigoreva}
+16:04:22.564 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+16:04:22.565 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+16:04:22.566 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.567 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+16:04:22.568 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:22.568 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.569 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:22.569 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.569 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.582 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.582 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.582 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.582 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.583 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:22.583 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.583 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:22.583 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.583 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.583 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.583 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.583 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.587 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.587 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.587 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.588 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.588 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:22.588 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.588 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.588 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.588 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.588 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #2
+16:04:22.589 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.589 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.590 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:22.590 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.590 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:22.590 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.590 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:22.590 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.590 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.590 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.590 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.590 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.601 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.601 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.601 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:22.601 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.601 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.601 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.601 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.601 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.609 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.610 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.610 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:22.610 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.610 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.610 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.610 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.610 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.619 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.619 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.619 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:22.619 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.620 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.620 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.620 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.620 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.622 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.622 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.622 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:22.622 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.622 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.622 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.622 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.622 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.625 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.626 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.626 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.626 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:22.626 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.626 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:22.626 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.626 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:22.626 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.626 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.626 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.626 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.626 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.632 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.632 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:22.632 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.633 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.633 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:22.633 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.633 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.633 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.633 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.633 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:22.635 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.636 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.636 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:22.636 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:22.636 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:22.636 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:22.636 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+16:04:22.636 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+16:04:22.636 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+16:04:22.636 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#86], was: [ru.stqa.pft.addressbook.model.ContactData.groups#86] (initialized)
+16:04:22.636 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#87], was: [ru.stqa.pft.addressbook.model.ContactData.groups#87] (initialized)
+16:04:22.636 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#98], was: [ru.stqa.pft.addressbook.model.ContactData.groups#98] (initialized)
+16:04:22.636 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#99], was: [ru.stqa.pft.addressbook.model.ContactData.groups#99] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#102], was: [ru.stqa.pft.addressbook.model.ContactData.groups#102] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#103], was: [ru.stqa.pft.addressbook.model.ContactData.groups#103] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#104], was: [ru.stqa.pft.addressbook.model.ContactData.groups#104] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#105], was: [ru.stqa.pft.addressbook.model.ContactData.groups#105] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#106], was: [ru.stqa.pft.addressbook.model.ContactData.groups#106] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#107], was: [ru.stqa.pft.addressbook.model.ContactData.groups#107] (initialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#44], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#44] (uninitialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#52], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#52] (uninitialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#91], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#91] (uninitialized)
+16:04:22.637 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#77], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#77] (uninitialized)
+16:04:22.637 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 14 objects
+16:04:22.637 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 14 collections
+16:04:22.637 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=107, lastname=Grigoreva}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44, contacts=&lt;uninitialized&gt;}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77, contacts=&lt;uninitialized&gt;}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=52, contacts=&lt;uninitialized&gt;}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[], id=86, lastname=Grigoreva 0}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#52], id=87, lastname=Grigoreva 1}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91, contacts=&lt;uninitialized&gt;}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#77], id=98, lastname=Grigoreva 0}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=99, lastname=Grigoreva 1}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=102, lastname=Grigoreva 1}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 2, address=Saint-Petersburg 2, homephone=, mobilephone=89112999959 2, workphone=, groups=[], id=103, lastname=Grigoreva 2}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=123, address=, homephone=, mobilephone=, workphone=, groups=[], id=104, lastname=123}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#91, ru.stqa.pft.addressbook.model.GroupData#52], id=105, lastname=Grigoreva}
+16:04:22.638 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=106, lastname=Grigoreva}
+16:04:23.263 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+16:04:23.264 [Test worker] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+Hibernate: select contactdat0_.id as id1_1_, contactdat0_.address as address2_1_, contactdat0_.firstname as firstnam3_1_, contactdat0_.home as home4_1_, contactdat0_.lastname as lastname5_1_, contactdat0_.mobile as mobile6_1_, contactdat0_.work as work7_1_ from addressbook contactdat0_ where deprecated='0000-00-00'
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+16:04:23.266 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 3
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 4
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 5
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 6
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 7
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 8
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 9
+16:04:23.267 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#86]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#87]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#98]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#99]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#102]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#103]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#104]
+16:04:23.268 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:23.269 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#105]
+16:04:23.269 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:23.269 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#106]
+16:04:23.269 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:23.269 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#107]
+16:04:23.269 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:23.270 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.272 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:23.272 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:23.272 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:23.272 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:23.273 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#44]
+16:04:23.273 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.273 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#107]
+16:04:23.273 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.273 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.273 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.273 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:23.273 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.276 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:23.276 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:23.276 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:23.276 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.276 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#106]
+16:04:23.276 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.276 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.276 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.276 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.277 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #2
+16:04:23.278 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:23.278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#52]
+16:04:23.278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:23.278 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#91]
+16:04:23.279 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.279 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#105]
+16:04:23.279 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.279 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.279 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.279 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:23.279 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.281 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:23.281 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.281 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#104]
+16:04:23.281 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.281 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.281 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.281 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:23.281 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.282 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:23.283 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.283 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#103]
+16:04:23.283 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.283 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.283 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.283 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:23.283 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.284 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:23.284 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.284 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#102]
+16:04:23.284 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.284 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.284 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.284 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:23.284 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.285 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:23.285 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.285 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#99]
+16:04:23.285 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.286 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.286 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.286 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:23.286 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.287 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:23.287 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:23.287 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:23.287 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #1
+16:04:23.287 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:23.287 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:23.287 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.GroupData#77]
+16:04:23.287 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.287 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#98]
+16:04:23.287 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.287 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.287 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.287 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:23.288 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.289 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:23.289 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Starting ResultSet row #0
+16:04:23.289 [Test worker] DEBUG o.h.l.p.e.p.i.CollectionReferenceInitializerImpl - Found row of collection: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:23.289 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.289 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#87]
+16:04:23.289 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.289 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.289 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.289 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Loading collection: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:23.289 [Test worker] DEBUG org.hibernate.SQL - select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+Hibernate: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=?
+16:04:23.290 [Test worker] DEBUG o.h.l.p.e.p.i.ResultSetProcessorImpl - Preparing collection intializer : [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:23.290 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections were found in result set for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.291 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - Collection fully initialized: [ru.stqa.pft.addressbook.model.ContactData.groups#86]
+16:04:23.291 [Test worker] DEBUG o.h.e.l.i.CollectionLoadContext - 1 collections initialized for role: ru.stqa.pft.addressbook.model.ContactData.groups
+16:04:23.291 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+16:04:23.291 [Test worker] DEBUG o.h.l.c.p.AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+16:04:23.291 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+16:04:23.291 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+16:04:23.291 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+16:04:23.291 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#86], was: [ru.stqa.pft.addressbook.model.ContactData.groups#86] (initialized)
+16:04:23.291 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#87], was: [ru.stqa.pft.addressbook.model.ContactData.groups#87] (initialized)
+16:04:23.291 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#98], was: [ru.stqa.pft.addressbook.model.ContactData.groups#98] (initialized)
+16:04:23.291 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#99], was: [ru.stqa.pft.addressbook.model.ContactData.groups#99] (initialized)
+16:04:23.291 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#102], was: [ru.stqa.pft.addressbook.model.ContactData.groups#102] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#103], was: [ru.stqa.pft.addressbook.model.ContactData.groups#103] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#104], was: [ru.stqa.pft.addressbook.model.ContactData.groups#104] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#105], was: [ru.stqa.pft.addressbook.model.ContactData.groups#105] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#106], was: [ru.stqa.pft.addressbook.model.ContactData.groups#106] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.ContactData.groups#107], was: [ru.stqa.pft.addressbook.model.ContactData.groups#107] (initialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#44], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#44] (uninitialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#52], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#52] (uninitialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#91], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#91] (uninitialized)
+16:04:23.292 [Test worker] DEBUG o.h.engine.internal.Collections - Collection found: [ru.stqa.pft.addressbook.model.GroupData.contacts#77], was: [ru.stqa.pft.addressbook.model.GroupData.contacts#77] (uninitialized)
+16:04:23.292 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 14 objects
+16:04:23.292 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 14 collections
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=107, lastname=Grigoreva}
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=44, contacts=&lt;uninitialized&gt;}
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=77, contacts=&lt;uninitialized&gt;}
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=52, contacts=&lt;uninitialized&gt;}
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[], id=86, lastname=Grigoreva 0}
+16:04:23.292 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#52], id=87, lastname=Grigoreva 1}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=test2, name=the first, header=test1, id=91, contacts=&lt;uninitialized&gt;}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 0, address=Saint-Petersburg 0, homephone=, mobilephone=89112999959 0, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#77], id=98, lastname=Grigoreva 0}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=99, lastname=Grigoreva 1}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 1, address=Saint-Petersburg 1, homephone=, mobilephone=89112999959 1, workphone=, groups=[], id=102, lastname=Grigoreva 1}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana 2, address=Saint-Petersburg 2, homephone=, mobilephone=89112999959 2, workphone=, groups=[], id=103, lastname=Grigoreva 2}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=123, address=, homephone=, mobilephone=, workphone=, groups=[], id=104, lastname=123}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44, ru.stqa.pft.addressbook.model.GroupData#91, ru.stqa.pft.addressbook.model.GroupData#52], id=105, lastname=Grigoreva}
+16:04:23.293 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{firstname=Oksana, address=Saint-Petersburg, homephone=, mobilephone=, workphone=, groups=[ru.stqa.pft.addressbook.model.GroupData#44], id=106, lastname=Grigoreva}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at 22.10.2019 16:04:24</p>
+</div>
+</div>
+</body>
+</html>

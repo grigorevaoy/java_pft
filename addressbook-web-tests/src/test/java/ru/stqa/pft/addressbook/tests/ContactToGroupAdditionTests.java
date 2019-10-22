@@ -6,6 +6,8 @@ import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
 import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactToGroupAdditionTests  extends TestBase{
 
@@ -15,7 +17,12 @@ public class ContactToGroupAdditionTests  extends TestBase{
       app.goTo().ContactPage();
       app.contact().create(new ContactData().withFirstname("Oksana").withLastname("Grigoreva").withAddress("Saint-Petersburg").withHomePhone("89112999959").withEmail("kiyrina@mail.ru"), true);
     }
-    //проверка на то, есть ли вообще группы, в которые хотим добавить контакт
+
+    if(app.db().groups().size()==0){
+      app.goTo().groupPage();
+      GroupData group = new GroupData().withName("the first'");
+      app.group().create(group);
+    }
   }
 
   @Test
@@ -24,13 +31,17 @@ public class ContactToGroupAdditionTests  extends TestBase{
     GroupData group = groups.iterator().next();
     Contacts before = app.db().contacts();
     ContactData addedContact = before.iterator().next();
-   // ContactData contact = new ContactData().withFirstname("Oksana").withLastname("Grigoreva").withAddress("Saint-Petersburg")
-    //       .inGroup(groups.iterator().next());
+
+    //проверка списка групп контакта до добавления в группу
+    assertThat(addedContact.getGroups(), equalTo(app.db().contacts().iterator().next().getGroups()));
+
     app.goTo().ContactPage();
     app.contact().addToGroup(addedContact,group);
     app.goTo().SelectedPage(group);
-    //сравнить то, что на экране и то, что в БД
-    verifyContactListInUI(addedContact);
+
+    //проверка списка групп контакта после добавления в группу
+    assertThat(addedContact.getGroups(), equalTo(app.db().contacts().iterator().next().getGroups()));
+
 
   }
 
