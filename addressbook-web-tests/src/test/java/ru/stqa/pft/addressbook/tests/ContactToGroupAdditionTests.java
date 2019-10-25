@@ -48,6 +48,7 @@ public class ContactToGroupAdditionTests  extends TestBase{
     GroupData group = groups.iterator().next();
     Contacts before = app.db().contacts();
     ContactData addedContact = before.iterator().next();
+    addedContact.
 
     //проверка списка групп контакта до добавления в группу
     assertThat(addedContact.getGroups(), equalTo(app.db().contacts().iterator().next().getGroups()));
