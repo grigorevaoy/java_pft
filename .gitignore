@@ -14,3 +14,8 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 .idea/misc.xml
 *.log
+addressbook-web-tests/build/tmp/test/jar_extract_7933232528417106334_tmp
+addressbook-web-tests/build/tmp/test/jar_extract_79739477869676380_tmp
+addressbook-web-tests/build/tmp/test/jar_extract_1002101249472648695_tmp
+
+*_tmp
