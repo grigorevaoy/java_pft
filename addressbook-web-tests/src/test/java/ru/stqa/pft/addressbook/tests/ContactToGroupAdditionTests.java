@@ -31,16 +31,29 @@ public class ContactToGroupAdditionTests  extends TestBase{
     Groups groups = app.db().groups();
     GroupData group = groups.iterator().next();
     Contacts before = app.db().contacts();
-    ContactData addedContact = before.iterator().next();
+
+    ContactData addedContact = returnContactForAddition(before);
+    //ContactData addedContact = before.iterator().next();
 
     app.goTo().ContactPage();
     app.contact().addToGroup(addedContact,group);
     app.goTo().SelectedPage(group);
 
 
-    assertThat(addedContact.getGroups(), equalTo(app.db().getContactFromDb(addedContact.getId()).getGroups()));
+    assertThat(addedContact.getGroups().withAdded(group), equalTo(app.db().getContactFromDb(addedContact.getId()).getGroups()));
 
 
+  }
+
+  private ContactData returnContactForAddition(Contacts before) {
+    for (ContactData contact: before){
+      if (contact.getGroups().size() == 0){
+        return contact;
+      }
+    }
+    app.contact().create(new ContactData().withFirstname("Oksana").withLastname("Grigoreva").withAddress("Saint-Petersburg").withHomePhone("89112999959").withEmail("kiyrina@mail.ru"), true);
+    Contacts newList = app.db().contacts();
+    return newList.iterator().next();
   }
 
 
