@@ -10,6 +10,7 @@ import ru.stqa.pft.addressbook.model.Groups;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+
 public class ContactFromGroupDeletionTests extends TestBase{
 
   @BeforeMethod
@@ -34,7 +35,6 @@ public class ContactFromGroupDeletionTests extends TestBase{
     GroupData group = groups.iterator().next();
     app.contact().selectGroupForDeletion(group);
     Contacts uiContacts = app.contact().all();
-    Contacts beforeDeletionContacts = group.getContacts();
     ContactData addedContact = before.iterator().next();
     //если в группе нет контактов, то добавляем, а потом удаляем этот же контакт
     if (uiContacts.size() ==0){
@@ -49,6 +49,7 @@ public class ContactFromGroupDeletionTests extends TestBase{
       app.goTo().SelectedPage(group);
 
     }
+    Contacts beforeDeletionContacts = group.getContacts();
     Contacts afterDeletionContacts = app.db().getGroupFromDb(group.getId()).getContacts();
     assertThat(afterDeletionContacts, equalTo(beforeDeletionContacts.without(addedContact)));
 
