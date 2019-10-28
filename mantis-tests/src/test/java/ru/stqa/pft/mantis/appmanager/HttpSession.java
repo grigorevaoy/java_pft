@@ -24,7 +24,7 @@ public class HttpSession {
   }
 
   public boolean login(String username, String password) throws IOException {
-    HttpPost post = new HttpPost(app.getProperty("web.baseUrl")+"/login.php");
+    HttpPost post = new HttpPost(app.getProperty("web.BaseUrl")+"/login.php");
     List<BasicNameValuePair> params = new ArrayList<>();
     params.add(new BasicNameValuePair("username",username));
     params.add(new BasicNameValuePair("password",password));
@@ -33,7 +33,7 @@ public class HttpSession {
     post.setEntity(new UrlEncodedFormEntity(params));
     CloseableHttpResponse response = httpClient.execute(post);
     String body = getTextForm(response);
-    return body.contains(String.format("<span class=\"italic\">&s</span>",username));
+    return body.contains(String.format("<span class=\"user-info\">%s</span>",username));
   }
 
   private String getTextForm(CloseableHttpResponse response) throws IOException {

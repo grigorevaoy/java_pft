@@ -39,7 +39,6 @@ public class UserPasswordChangeTests extends TestBase{
     app.user().finish(ChangePasswordLink, newPassword);
 
     //Проверка на то, что пользователь может войти в систему под новым паролем
-    app.user().logout();
     HttpSession session = app.newSession();
     assertTrue(session.login(User.getUsername(), newPassword));
   }

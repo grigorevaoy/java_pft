@@ -14,9 +14,9 @@ public class UserHelper extends HelperBase {
 
   public void adminLogin() {
     type(By.name("username"), "administrator");
-    click(By.xpath("//input[@value='Войти']"));
+    wd.findElement(By.xpath("//input[2]")).click();
     type(By.name("password"), "root");
-    click(By.xpath("//input[@value='Войти']"));
+    wd.findElement(By.xpath("//input[3]")).click();
   }
 
 
@@ -25,7 +25,7 @@ public class UserHelper extends HelperBase {
   }
 
   public void goToPageManageUser() {
-    wd.findElement(By.xpath("//a[contains(text(),'Управление пользователями')]")).click();
+    wd.findElement(By.xpath("//a[contains(@href, '/mantisbt-2.22.1/manage_user_page.php')]")).click();
   }
 
   public void openUserPageByUsername(String name) {
@@ -33,7 +33,7 @@ public class UserHelper extends HelperBase {
   }
 
   public void initPasswordChange() {
-    click(By.xpath("//input[@value='Reset Password']"));
+    click(By.cssSelector("span > input.btn.btn-primary.btn-white.btn-round"));
   }
 
   public String findLink(List<MailMessage> mailMessages, String email) {
@@ -43,19 +43,15 @@ public class UserHelper extends HelperBase {
   }
 
   public String changePassword() {
-    int randomValue = (int) (Math.random() * 100000);
-    return Integer.toString(randomValue);
+    String newPassword = "new_password";
+    return newPassword;
   }
 
   public void finish(String ChangePasswordLink, String password) {
     wd.get(ChangePasswordLink);
     type(By.name("password"), password);
     type(By.name("password_confirm"), password);
-    click(By.cssSelector("input[value='Update User']"));
-  }
-
-  public void logout() {
-    click(By.xpath("//a[text() = 'Logout']"));
+    click(By.xpath("//button/span"));
   }
 
 }
