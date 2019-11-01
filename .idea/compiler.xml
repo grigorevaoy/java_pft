@@ -10,6 +10,8 @@
       <module name="sandbox.test" target="1.8" />
       <module name="secondtask.main" target="1.8" />
       <module name="secondtask.test" target="1.8" />
+      <module name="soap-sample.main" target="1.8" />
+      <module name="soap-sample.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
