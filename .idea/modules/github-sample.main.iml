@@ -3,7 +3,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../github-sample/build/classes/java/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../github-sample/src/main" />
+    <content url="file://$MODULE_DIR$/../../github-sample/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../github-sample/src/main/java" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.testng:testng:6.9.10" level="project" />
