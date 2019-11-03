@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.mantis.tests.SoapTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-03T15:23:06" hostname="SPB-5CD810B9KL" time="1.736">
+<testsuite name="ru.stqa.pft.mantis.tests.SoapTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-03T15:32:15" hostname="SPB-5CD810B9KL" time="1.732">
   <properties/>
-  <testcase name="testCreateIssue" classname="ru.stqa.pft.mantis.tests.SoapTests" time="1.325"/>
-  <testcase name="testMantisBugs" classname="ru.stqa.pft.mantis.tests.SoapTests" time="0.41"/>
-  <system-out><![CDATA[Status 0000003: closed
+  <testcase name="testCreateIssue" classname="ru.stqa.pft.mantis.tests.SoapTests" time="1.3"/>
+  <testcase name="testGetProjects" classname="ru.stqa.pft.mantis.tests.SoapTests" time="0.209"/>
+  <testcase name="testMantisBugs" classname="ru.stqa.pft.mantis.tests.SoapTests" time="0.222"/>
+  <system-out><![CDATA[1
+test
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
