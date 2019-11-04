@@ -35,7 +35,7 @@ public class TestBase {
 
   //узнаем статус таска по ID
   public String issueStatus(int id) throws IOException {
-    String json = getExecutor().execute(Request.Get("http://bugify.stqa.ru/api/issues/" + id + ".json"))
+    String json = getExecutor().execute(Request.Get("https://bugify.stqa.ru/api/issues/" + id + ".json"))
             .returnContent().asString();
 
     JsonElement parsed = new JsonParser().parse(json);
