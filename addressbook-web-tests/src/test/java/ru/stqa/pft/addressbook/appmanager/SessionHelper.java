@@ -19,7 +19,7 @@ public class SessionHelper extends HelperBase{
   public void login(String username, String password) throws IOException {
     String target = System.getProperty("target", "local");
     properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
-    wd.get(properties.getProperty("web.BaseUrl"));
+    wd.get(properties.getProperty("web.baseUrl"));
     type(By.name("user"),username);
     type(By.name("pass"),password);
     click(By.xpath("//input[@value='Login']"));
