@@ -1,0 +1,26 @@
+Started by user Григорьева Оксана Юрьевна
+Running as SYSTEM
+Building in workspace C:\Users\o.grigoreva\.jenkins\workspace\sandbox
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/grigorevaoy/java_pft # timeout=10
+Fetching upstream changes from https://github.com/grigorevaoy/java_pft
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/grigorevaoy/java_pft +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 019cd9043e49e6da240f746279801d9751cca40d (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 019cd9043e49e6da240f746279801d9751cca40d # timeout=10
+Commit message: "выполнено задание 20"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 019cd9043e49e6da240f746279801d9751cca40d # timeout=10
+[Gradle] - Launching build.
+[sandbox] $ cmd.exe /C "gradle.bat clean test && exit %%ERRORLEVEL%%"
+"gradle.bat" ­Ґ пў«пҐвбп ў­гваҐ­­Ґ© Ё«Ё ў­Ґи­Ґ©
+Є®¬ ­¤®©, ЁбЇ®«­пҐ¬®© Їа®Ја ¬¬®© Ё«Ё Ї ЄҐв­л¬ д ©«®¬.
+Build step 'Invoke Gradle script' changed build result to FAILURE
+Build step 'Invoke Gradle script' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE
